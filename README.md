@@ -1,4 +1,4 @@
-# Baird Encoder
+# Baird Encoder - A small tool to convert images to mechanical TV audio signals
 Converts images into mechanical TV audio signals. Pretty much the opposite of the [Baird Decoder](https://github.com/RegisCasey/Baird-Decoder).
 It does this by reading each pixel vertically, and assigns each pixel an audio value based on brightness.
 
