@@ -3,14 +3,14 @@ Converts images into mechanical TV audio signals. Pretty much the opposite of th
 It does this by reading each pixel vertically, and assigns each pixel an audio value based on brightness.
 
 # REQUIREMENTS
-THIS IS A PYTHON SCRIPT, AND AS SUCH, IT IS ASSUMED THAT YOU HAVE AT LEAST PYTHON 3.6.X INSTALLED
+**THIS IS A PYTHON SCRIPT, AND AS SUCH, IT IS ASSUMED THAT YOU HAVE AT LEAST PYTHON 3.6.X INSTALLED.**
 
 To use this program, you will need to have the [Pillow/PIL](https://pypi.org/project/Pillow/) and [PySoundFile](https://pypi.org/project/PySoundFile/) libraries,  and a Python code editor (Visual Studio Code, [Thonny](https://thonny.org/), etc. installed (all not included).
 
 You will also need a small image file (ideally under 128x128), which has been provided in this repository to serve as an example.
 
 # HOW TO USE
-Open the `BairdEncoder-v0.2-RegisC.py` script in a code editor, and modify the values listed in **MAIN CONFIGURATIONS**. Once you are done, run the script, and once the script is done, it will save the audio file.
+Open the `BairdEncoder-v0.2-RegisC.py` script in a code editor, and modify the values listed in **MAIN CONFIGURATIONS**. Once you are done, run the script, and once the script is done, it will save the audio file. It really is that simple!
 
 # MAIN CONFIGURATIONS
 `inName` - Your source image, please include extension (i.e. SampleImage.png).
