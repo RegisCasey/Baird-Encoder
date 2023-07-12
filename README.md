@@ -35,7 +35,7 @@ Open the `BairdEncoder-v1-RegisC.py` script in a code editor, and modify the val
 that will tell you how many audio samples are required for one frame. Multiply that number by your frame rate, and that will tell you how many audio samples are required to store one second of that. If the value is greater than 48000 (or 96000),
 then it won't fit in the `.wav` format.), you may need to save your file under the `.sld` container instead. 
 
-*See dictionary for more documentaion*
+*See [wiki](https://github.com/RegisCasey/Baird-Encoder/wiki)(WIP) for more documentaion*
 
 ## .sld File Format
 `.sld` is a label based on .txt and audio, which allows you to convert images that are too big, or has too high of a framerate, for a .wav file to support, thus extending the limits on the videos you can convert.
